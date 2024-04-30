@@ -85,10 +85,10 @@ var setting = {
 <h6>1. ajax 사용하여 treeData 가져오기</h6>
 1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기 
 2. 데이터 가져온 방법 
-    - `List<List<Map<String, Object>>>` 사용 
-    - 3가지의 트리를 표출해야 함 
-    - `List<Map<String, Object>>` 형식의 List * 3 
-    - 3개의 리스트를 새 List에 담아서 return 
+    + `List<List<Map<String, Object>>>` 사용 
+	+ 3가지의 트리를 표출해야 함 
+    + `List<Map<String, Object>>` 형식의 List * 3 
+    + 3개의 리스트를 새 List에 담아서 return 
 3. json 타입으로 data 가져와서 jsp로 넘기기 
     - jsonView 사용 
     - return type: ModelAndView
