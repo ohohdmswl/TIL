@@ -83,13 +83,13 @@ var setting = {
 ### 3. zTree 표출
 ##### 1. treeData 가져오기
 <h6>1. ajax 사용하여 treeData 가져오기</h6>
-	**1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기**
-	**2. 데이터 가져온 방법**
-		  - List<List<Map<String, Object>>> 사용
+	1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기
+	2. 데이터 가져온 방법
+		  -` List<List<Map<String, Object>>>` 사용
 			- 3가지의 트리를 표출해야
-				- List<Map<String, Object>> 형식의 List * 3
+				- `List<Map<String, Object>>` 형식의 List * 3
 				- 3개의 리스트를 새 List에 담아서 return
-	**3. json 타입으로 data 가져와서 jsp로 넘기기**
+	3. json 타입으로 data 가져와서 jsp로 넘기기
 		- jsonView 사용
 			- return type : ModelAndView
 			  
@@ -110,6 +110,7 @@ var setting = {
 	4. 노드 아이콘 변경
 	5. 최상위 노드 항상 open 설정
 	6. for 반복문 사용한 treeData 를 `push` 메소드 사용하여 추가
+
 ```js
 //트리데이터 담을 배열
 var jsonTree = [];
