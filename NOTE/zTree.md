@@ -171,6 +171,19 @@ return jsonTree;
 ### 4. zTree 노드 수정
 ##### 1. node 추가
 ##### 2. node 수정(이름 변경)
+1. 함수 동작 순서 (실제사용)
+
+	- <font color="#e36c09"> </font><font color="#e36c09"> [beforeEditName]</font> fncBfeRenameLoginChk() : 수정 버튼 클릭시 onClick
+		- ajax 사용하여 현재 로그인 유무 체크
+			- 로그인시 : fncRename() 실행
+			- 비로그인시 : 경고 alert 실행
+	- fncRename() : 클릭한 노드 이름 변경하는 ztree 메소드 `editName()` 사용
+		- ` zTreeObj.editName` 메소드
+			- 선택한 노드의 이름 편집 시작
+	- <font color="#e36c09">[beforeRename]</font> fncRenameBfr() : 정보명 변경 콜백함수(confirm)
+		- 
+	- <font color="#e36c09">[onRename]</font> fncRenameSave() : confirm 후 submit 처리 함수
+
 
 
 ##### 3. node 삭제
