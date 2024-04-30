@@ -83,27 +83,27 @@ var setting = {
 ### 3. zTree 표출
 ##### 1. treeData 가져오기
 <h6>1. ajax 사용하여 treeData 가져오기</h6>
-	1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기
-	2. 데이터 가져온 방법
+	**1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기**
+	**2. 데이터 가져온 방법**
 		-  List<List<Map<String, Object>>> 사용
 			- 3가지의 트리를 표출해야
 				- List<Map<String, Object>> 형식의 List * 3
 				- 3개의 리스트를 새 List에 담아서 return
-	1. json 타입으로 data 가져와서 jsp로 넘기기
+	**3. json 타입으로 data 가져와서 jsp로 넘기기**
 		- jsonView 사용
 			- return type : ModelAndView
 			  
-2. ajax (success)
-	1.  treeData 가공
+<h6>2. ajax (success)</h6>
+	**1.  treeData 가공**
 		- 데이터 가공함수(treeData)
 			- 데이터 가공함수 인자로 treeData 사용
-	2. zTree init
-	3. zTree 표출
+	**2. zTree init**
+	**3. zTree 표출**
 		1. zTree를 표출할 html 요소에 할당
 		2. 처음 표출시 모든 노드를 확인할 수 있도록 설정
 			- `expandAll(true)` 메소드 사용
 	   
-3. 데이터 가공함수(treeData)
+<h6>3. 데이터 가공함수(treeData)</h6>
 	1. treeData 담을 배열 선언
 	2. 가져온 데이터의 key 맞게 for 반복문 사용하여 json data 객체 생성
 	3. 노드 부모 속성 설정
@@ -147,8 +147,12 @@ for (var i = 0; i < jsonData.length; i++) {
 return jsonTree;
 
 ```
-	
-	
+
+
+### 4. zTree 노드 수정
+##### 1. node 추가
+##### 2. node 수정(이름 변경)
+##### 3. node 삭제
 
 
 
