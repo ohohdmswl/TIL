@@ -84,38 +84,50 @@ var setting = {
 ##### 1. treeData 가져오기
 <h6>1. ajax 사용하여 treeData 가져오기</h6>
 <ol>
-<li>ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기</li>
-<li>데이터 가져온 방법 </li>
+<b><li>ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기</li></b>
+<b><li>데이터 가져온 방법 </li></b>
 	<ul>
 	    <li>`List&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;` 사용</li>
-	+ 3가지의 트리를 표출해야 함 
-    + `List<Map<String, Object>>` 형식의 List * 3 
-    + 3개의 리스트를 새 List에 담아서 return 
+		<li>3가지의 트리를 표출해야 함 </li>
+	    <li>`List&lt;Map&lt;String, Object&gt;&gt;` 형식의 List * 3 </li>
+	    <li> 3개의 리스트를 새 List에 담아서 return </li>
     </ul>
-<li>json 타입으로 data 가져와서 jsp로 넘기기</li>
-    - jsonView 사용 
-    - return type: ModelAndView
+<b><li>json 타입으로 data 가져와서 jsp로 넘기기</li></b>
+	<ul>
+	    <li> jsonView 사용    </li>
+		<li> return type: ModelAndView   </li>
+    </ul>
 </ol>
 
-
-
 <h6>2. ajax (success)</h6>
-	**1.  treeData 가공**
-		- 데이터 가공함수(treeData)
-			- 데이터 가공함수 인자로 treeData 사용
-	**2. zTree init**
-	**3. zTree 표출**
-		1. zTree를 표출할 html 요소에 할당
-		2. 처음 표출시 모든 노드를 확인할 수 있도록 설정
-			- `expandAll(true)` 메소드 사용
+<ol>
+	<b><li> treeData 가공</li></b>
+		<ul>
+			<li>데이터 가공함수(treeData)</li>
+				<ul>
+					<li>데이터 가공함수 인자로 treeData 사용</li>
+				</ul>
+		</ul>
+	<b><li> zTree init</li></b>
+	<b><li> zTree 표출</li></b>
+		<ul>
+		<li>zTree를 표출할 html 요소에 할당</li>
+		<li>처음 표출시 모든 노드를 확인할 수 있도록 설정</li>
+			<ul>
+				<li>`expandAll(true)` 메소드 사용</li>
+			</ul>
+		</ul>
+</ol>
 	   
 <h6>3. 데이터 가공함수(treeData)</h6>
-	1. treeData 담을 배열 선언
-	2. 가져온 데이터의 key 맞게 for 반복문 사용하여 json data 객체 생성
-	3. 노드 부모 속성 설정
-	4. 노드 아이콘 변경
-	5. 최상위 노드 항상 open 설정
-	6. for 반복문 사용한 treeData 를 `push` 메소드 사용하여 추가
+<ol>
+	<b><li>treeData 담을 배열 선언</li></b>
+	<b><li>가져온 데이터의 key 맞게 for 반복문 사용하여 json data 객체 생성</li></b>
+	<b><li>노드 부모 속성 설정</li></b>
+	<b><li>노드 아이콘 변경</li></b>
+	<b><li>최상위 노드 항상 open 설정</li></b>
+	<b><li> for 반복문 사용한 treeData 를 `push` 메소드 사용하여 추가</li></b>
+</ol>
 
 ```js
 //트리데이터 담을 배열
