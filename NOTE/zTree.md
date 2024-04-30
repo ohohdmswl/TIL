@@ -170,7 +170,7 @@ return jsonTree;
 
 ### 4. zTree 노드 수정
 ##### 1. node 추가
-
+- zTree node 추가용 메소드 사용하지 않고 백단에서 java로 db에 추가하는 방식으로 구현
 ##### 2. node 수정(이름 변경)
 1. 함수 동작 순서 (실제사용)
 
@@ -189,10 +189,11 @@ return jsonTree;
 	- <font color="#e36c09">[onRename]</font> <font color="#ff0000">fncRenameSave()</font> : confirm 후 submit 처리 함수
 		- 변경된 이름을 submit 하여 이름 변경 처리
 
-
-
 ##### 3. node 삭제
+- confirm 사용해서 백단에서 java로 db에서 삭제하는 방식으로 구현 (zTree 자체 메소드 사용 안함)
 
-
+---
+#### 추후 보완할 점
+1. zTree 메소드 사용법이 미숙해 백단에서 insert, delete 구현한
 
 
