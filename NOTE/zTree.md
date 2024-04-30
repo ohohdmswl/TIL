@@ -194,6 +194,8 @@ return jsonTree;
 
 ---
 #### 추후 보완할 점
-1. zTree 메소드 사용법이 미숙해 백단에서 insert, delete 구현한
+1. zTree 메소드 사용법이 미숙해 백단에서 insert, delete 구현한 점
+2. zTree 메소드로 update를 구현했지만 관련 함수가 4개가 사용된 점
+3. 전체적으로 기능별 함수를 자잘하게 작성한 것 같아 단순화시킬 필요성
 
 
