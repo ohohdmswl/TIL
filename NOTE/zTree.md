@@ -181,7 +181,10 @@ return jsonTree;
 		- ` zTreeObj.editName` 메소드
 			- 선택한 노드의 이름 편집 시작
 	- <font color="#e36c09">[beforeRename]</font> fncRenameBfr() : 정보명 변경 콜백함수(confirm)
-		- 
+		- <font color="#e36c09">[beforeRename]</font>
+			- 이름 변경 전 호출할 콜백함수 지정
+		- 변경 true : return true;
+		- 변경 false : `cancelEditName()` 메소드 실행하여 isCancel 인자 true로 변경
 	- <font color="#e36c09">[onRename]</font> fncRenameSave() : confirm 후 submit 처리 함수
 
 
