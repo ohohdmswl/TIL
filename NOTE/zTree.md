@@ -41,7 +41,10 @@ var treeNodes = [
 3. zTree init
 ```js
 $(document).ready(function(){
-			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+			$.fn.zTree.init($("#treeDemo"), setting, treeNodes);
 });
 ```
 
+
+### 2. zTree setting
+1. 
