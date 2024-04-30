@@ -82,7 +82,7 @@ var setting = {
 
 ### 3. zTree 표출
 ##### 1. treeData 가져오기
-1. ajax 사용하여 treeData 가져오기
+<h6>1. ajax 사용하여 treeData 가져오기</h6>
 	1. ajax로 CTR 연결해 DB에서 사용할 treeData 가져오기
 	2. 데이터 가져온 방법
 		-  List<List<Map<String, Object>>> 사용
@@ -92,5 +92,64 @@ var setting = {
 	1. json 타입으로 data 가져와서 jsp로 넘기기
 		- jsonView 사용
 			- return type : ModelAndView
-		-
+			  
+2. ajax (success)
+	1.  treeData 가공
+		- 데이터 가공함수(treeData)
+			- 데이터 가공함수 인자로 treeData 사용
+	2. zTree init
+	3. zTree 표출
+		1. zTree를 표출할 html 요소에 할당
+		2. 처음 표출시 모든 노드를 확인할 수 있도록 설정
+			- `expandAll(true)` 메소드 사용
+	   
+3. 데이터 가공함수(treeData)
+	1. treeData 담을 배열 선언
+	2. 가져온 데이터의 key 맞게 for 반복문 사용하여 json data 객체 생성
+	3. 노드 부모 속성 설정
+	4. 노드 아이콘 변경
+	5. 최상위 노드 항상 open 설정
+	6. for 반복문 사용한 treeData 를 `push` 메소드 사용하여 추가
+```js
+//트리데이터 담을 배열
+var jsonTree = [];
+
+//트리데이터 가공을 위한 for 반복문
+for (var i = 0; i < jsonData.length; i++) {
+	var col01 = jsonData[i]["col01"];
+	var col02 = jsonData[i]["col02"];
+	var col03 = jsonData[i]["col03"];
+
+	//트리노드 객체 생성
+	var obj = {
+			  "col01": col01,
+			  "col02": col02,
+			  "col03": col03
+			};
+
+	//트리 노드 (부모 속성 설정(isParent), 아이콘 변경(icon))
+	if(col01==null || col01==''){	
+		obj["isParent"] = true;
+	}else{
+		obj["icon"] = '${pageContext.request.contextPath }/images/file.png';
+	}
+	//최상위 노드일 경우 (오픈 설정(open))
+	if(col02==0){	
+		obj["open"] = true;
+	}
+
+	//가공한 트리데이터 obj객체에 추가
+	//트리데이터를 for 반복문 통해 하나씩 가공해서 obj객체에 넣고 해당 
+	jsonTree.push(obj);
+};
+
+//가공된 트리데이터 리턴
+return jsonTree;
+
+```
+	
+	
+
+
+
 
