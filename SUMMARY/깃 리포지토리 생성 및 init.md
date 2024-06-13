@@ -188,3 +188,15 @@ target/
 ```
 
 
+📌 깃에서 소스 가져오기
+- window - show view - others - git - git repositories
+- 깃 리포지토리 이동
+- 우클릭 - 클론 깃 리포지토리
+- 클론 진행
+- 깃 리포지토리 익스플로러에 표출되면 import 해서 가져오기
+	- import 안되는 경우
+		- import - general - existin projects into workspace
+		- import - general - projects from folder or archive
+		- 프로젝트 이름이 같은 경우
+			- .project 파일 확인해서 프로젝트 이름이 겹치는지 확인
+			- 이클립스는 프로젝트 이름이 같을 경우 import 진행 안됨(already exist)
