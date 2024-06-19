@@ -151,3 +151,25 @@
 
 
 - https://tyrannocoding.tistory.com/60
+
+
+
+- 참고 url
+	- 공식
+		- [튜토리얼_웹애플리케이션](https://developers.naver.com/docs/login/web/web.md)
+		- [회원 프로필 조회 명세](https://developers.naver.com/docs/login/profile/profile.md)
+		- [네이버 로그인 개발가이드](https://developers.naver.com/docs/login/devguide/devguide.md)
+	- https://ddol.tistory.com/20
+	- [oauth없이 제일많이 참고한 블로그](https://devlopsquare.tistory.com/189)
+	- [jsp 사용해서 네아로](https://serverrefository.tistory.com/80)
+
+- [외부 링크로 리다이렉트 방법](https://blerang055.tistory.com/6)
+- 뉴딜_하이잡
+	- [컨트롤러](https://github.com/bluenote00/HIJOB_recruitsystem/blob/main/newdeal4recruit/src/main/java/kr/happyjob/study/login/controller/LoginController.java)
+	- [jsp1](https://github.com/bluenote00/HIJOB_recruitsystem/blob/main/newdeal4recruit/src/main/webapp/WEB-INF/view/login/login.jsp)
+	- [jsp2](https://github.com/bluenote00/HIJOB_recruitsystem/blob/main/newdeal4recruit/src/main/webapp/WEB-INF/view/login/naverLogin.jsp)
+
+- [HttpURLConnection 설명 비유](https://kimfk567.tistory.com/111)
+- [HttpURLConnection 설명 문서형](https://blueyikim.tistory.com/2199)
+
+- 
