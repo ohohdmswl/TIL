@@ -1,3 +1,4 @@
+#application_properties #SPRING/application_properties #환경변수 
 ## 📌 application.properties 사용 방법
 - **파일 이름**
 	- application.properties
