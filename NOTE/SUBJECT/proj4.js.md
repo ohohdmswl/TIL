@@ -12,5 +12,5 @@
 ```js
 proj4(fromProjection[, toProjection, coordinates])
 ```
-- <p align="left"></p>
+- 
 
