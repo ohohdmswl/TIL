@@ -1,0 +1,25 @@
+#GIS 
+- 참고 url
+	- [OpenLayers를 여행하는 개발자를 위한 안내서 - 4. QGIS 체험하기 - 𝝅번째 알파카의 개발 낙서장 (itcode.dev)](https://blog.itcode.dev/projects/2022/03/05/gis-guide-for-programmer-4)
+
+🌏 **SHP(shape)**
+- 대표적인 **공간정보 데이터 포맷**
+- ESRI -> SHP, QGIS 고안
+- 일반 데이터 컬럼 :  데이터 형식 맞게 저장(varchar, number, date...)
+- 위치 정보: 정해진 규격으로 저장(해당 바이너리 통해 데이터의 형식 및 좌표 데이터 산출 가능)
+- **SHP 파일 구성요소**(4가지)
+	- **shp** (벡터 도형 데이터)
+	- shx (벡터 도형 인덱스)
+	- dbf (각 도형 속성 데이터)
+	- prj (좌표 정보)
+
+🌏 **GeoJSON**
+- 공간 정보를 표현하기 위해 정해진 방식으로 구성된 JSON
+- HTTP 통신으로 공간정보를 쉽게 호출하는데 사용
+
+🌏 **QGIS**
+- [QGIS 프로젝트에 오신 것을 환영합니다!](https://qgis.org/ko/site/)
+- 공간정보데이터 SHP를 사용가능한 툴
+- 오픈소스
+- <-> ArcGIS
+
