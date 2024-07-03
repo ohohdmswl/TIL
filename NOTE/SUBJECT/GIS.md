@@ -1,6 +1,8 @@
 #GIS 
 - 참고 url
 	- [OpenLayers를 여행하는 개발자를 위한 안내서 - 4. QGIS 체험하기 - 𝝅번째 알파카의 개발 낙서장 (itcode.dev)](https://blog.itcode.dev/projects/2022/03/05/gis-guide-for-programmer-4)
+	- https://wikidocs.net/163614
+	- 
 
 🌏 **SHP(shape)**
 - 대표적인 **공간정보 데이터 포맷**
