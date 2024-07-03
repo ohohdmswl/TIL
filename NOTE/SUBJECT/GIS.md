@@ -36,6 +36,11 @@
 - [QGIS 프로젝트에 오신 것을 환영합니다!](https://qgis.org/ko/site/)
 - https://docs.qgis.org/3.10/en/docs/
 - https://m.blog.naver.com/PostView.naver?blogId=flyproject&logNo=221959825488&targetKeyword=&targetRecommendationCode=1&fromRecommendationType=POPULAR_POST&targetRecommendationDetailCode=1000
+- https://dynamic-programmer.tistory.com/entry/QGIS-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%8F-%EC%84%A4%EC%B9%98-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EC%A7%80%EB%8F%84-%EA%B3%B5%EB%B6%80
+- 서울 행정구역 shp 파일
+	- https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?dsId=30604
+	![image](https://github.com/ohohdmswl/TIL/assets/132552661/18b771ab-a80d-4cef-8d01-f750f5b236a7)
+
 - 공간정보데이터 SHP를 사용가능한 툴
 - 오픈소스
 - <-> ArcGIS
