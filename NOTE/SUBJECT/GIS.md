@@ -35,6 +35,7 @@
 🌏 **QGIS**
 - [QGIS 프로젝트에 오신 것을 환영합니다!](https://qgis.org/ko/site/)
 - https://docs.qgis.org/3.10/en/docs/
+- https://m.blog.naver.com/PostView.naver?blogId=flyproject&logNo=221959825488&targetKeyword=&targetRecommendationCode=1&fromRecommendationType=POPULAR_POST&targetRecommendationDetailCode=1000
 - 공간정보데이터 SHP를 사용가능한 툴
 - 오픈소스
 - <-> ArcGIS
