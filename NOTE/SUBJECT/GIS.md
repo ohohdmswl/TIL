@@ -34,6 +34,7 @@
 
 🌏 **QGIS**
 - [QGIS 프로젝트에 오신 것을 환영합니다!](https://qgis.org/ko/site/)
+- https://docs.qgis.org/3.10/en/docs/
 - 공간정보데이터 SHP를 사용가능한 툴
 - 오픈소스
 - <-> ArcGIS
