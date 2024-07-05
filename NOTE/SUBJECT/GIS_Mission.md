@@ -23,6 +23,12 @@
 
 - Geo Server
 	- [공식문서](https://geoserver.org/)
+	- [[GIS] GeoServer를 설치해보자.](https://bongra.tistory.com/82)
+	- [설치 및 실행](https://velog.io/@dailylifecoding/geoserver-install-and-start)
+	- [GeoServer-기초](https://itstart-190126.tistory.com/entry/GeoServer-%EA%B8%B0%EC%B4%88)
+	- [Layer Publishing](https://velog.io/@dailylifecoding/GeoServer-Layer-Publishing)
+
+	- 앞서 생성한 `Store(저장소)` 에 있는 `Geometry 컬럼을 갖는 테이블` 이 존재한다면 위 그림처럼 목록에 표출
 	- 
 
 
