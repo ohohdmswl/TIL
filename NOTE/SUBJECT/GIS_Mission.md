@@ -32,6 +32,7 @@
 	- [GeoServer를 활용하여 지도(레이어)를 발행 및 화면에 표출 해보자. (1)( feat. OpenLayers )](https://bongra.tistory.com/85)
 	- [GeoServer를 활용하여 지도(레이어)를 발행 및 화면에 표출 해보자. (2)( feat. OpenLayers )](https://bongra.tistory.com/86)
 	- [geoserver 맵 발행 및 openlayers 연동.](https://zzang9iu.tistory.com/26)
+	- [OpenLayers + GeoServer + PostGIS + VWORLD + WFS,WMS](https://dgblog.tistory.com/260)
 
 
 
@@ -41,7 +42,8 @@
 	- 래스터, 백터 데이터를 포함하고 라벨, 색상, 글꼴 등 기타정보 포함
 	- SDL 파일 수정 -> 레이어 스타일링 가능
 	- [geo style](https://wogus789789.tistory.com/316)
-
+	- [Geoserver WMS 라벨 스타일(TextSymbolizer) 설정 팁](https://yoginsoft.tistory.com/8)
+	- [텍스트 심볼라이저](https://docs.geoserver.org/stable/en/user/styling/sld/reference/textsymbolizer.html)
 
 - 프록시
 	- [geoserver + openlayers cors 문제 해결방법](https://devhoma.tistory.com/108)
