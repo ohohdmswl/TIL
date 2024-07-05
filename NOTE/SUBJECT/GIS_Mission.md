@@ -44,7 +44,8 @@
 	- [geo style](https://wogus789789.tistory.com/316)
 	- [Geoserver WMS 라벨 스타일(TextSymbolizer) 설정 팁](https://yoginsoft.tistory.com/8)
 	- [텍스트 심볼라이저](https://docs.geoserver.org/stable/en/user/styling/sld/reference/textsymbolizer.html)
-
+	- https://groups.google.com/g/osgeo-kr/c/O-IQXO2RoDw
+	- 
 - 프록시
 	- [geoserver + openlayers cors 문제 해결방법](https://devhoma.tistory.com/108)
 	- 로컬에서 할 때는 프록시 안해도 인터넷 잘 되니까 상관없는데 서버 올리거나 할 때는 프록시를 해야한단다
