@@ -35,6 +35,13 @@
 
 
 
+- SLD
+	- [Geoserver에서 layer sytle 적용해보기](https://wldnjd2.tistory.com/30) 
+	- 저장된 지도 레이어 스타일을 갖는 xml 형식 파일
+	- 래스터, 백터 데이터를 포함하고 라벨, 색상, 글꼴 등 기타정보 포함
+	- SDL 파일 수정 -> 레이어 스타일링 가능
+	- 
+
 
 - 프록시
 	- [geoserver + openlayers cors 문제 해결방법](https://devhoma.tistory.com/108)
