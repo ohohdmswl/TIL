@@ -29,6 +29,16 @@
 	- [Layer Publishing](https://velog.io/@dailylifecoding/GeoServer-Layer-Publishing)
 
 	- 앞서 생성한 `Store(저장소)` 에 있는 `Geometry 컬럼을 갖는 테이블` 이 존재한다면 위 그림처럼 목록에 표출
+	- [GeoServer를 활용하여 지도(레이어)를 발행 및 화면에 표출 해보자. (1)( feat. OpenLayers )](https://bongra.tistory.com/85)
+	- [geoserver 맵 발행 및 openlayers 연동.](https://zzang9iu.tistory.com/26)
+
+
+
+
+- 프록시
+	- [geoserver + openlayers cors 문제 해결방법](https://devhoma.tistory.com/108)
+	- 로컬에서 할 때는 프록시 안해도 인터넷 잘 되니까 상관없는데 서버 올리거나 할 때는 프록시를 해야한단다
+	- 일단 재끼고 로컬에서 진행 하고 추후에 프록시 태우는걸 연습해보도록 하자
 	- 
 
 
