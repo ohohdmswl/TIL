@@ -168,3 +168,6 @@
 </StyledLayerDescriptor>
 
 ```
+
+- [라벨 여러개 표출됨](https://bongra.tistory.com/336)
+
