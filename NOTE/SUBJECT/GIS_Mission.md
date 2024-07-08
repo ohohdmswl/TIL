@@ -171,3 +171,7 @@
 
 - [라벨 여러개 표출됨](https://bongra.tistory.com/336)
 
+select * from 'table' where ym =%ym%
+
+
+${ym}
