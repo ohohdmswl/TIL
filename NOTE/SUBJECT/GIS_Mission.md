@@ -175,3 +175,64 @@ select * from 'table' where ym =%ym%
 
 
 ${ym}
+
+
+
+- 타일로 가져오면 중복이 생겨서 라벨이 중복으로 생김
+- 중복 방지하려면 tile로 가져오지 말고 image로 가져와야한다
+- [참고한 소스](https://openlayers.org/en/v4.6.5/examples/wms-image.html?q=image)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Single Image WMS</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+      var layers = [
+        new ol.layer.Tile({
+          source: new ol.source.OSM()
+        }),
+        new ol.layer.Image({
+          extent: [-13884991, 2870341, -7455066, 6338219],
+          source: new ol.source.ImageWMS({
+            url: 'https://ahocevar.com/geoserver/wms',
+            params: {'LAYERS': 'topp:states'},
+            ratio: 1,
+            serverType: 'geoserver'
+          })
+        })
+      ];
+      var map = new ol.Map({
+        layers: layers,
+        target: 'map',
+        view: new ol.View({
+          center: [-10997148, 4569099],
+          zoom: 4
+        })
+      });
+    </script>
+  </body>
+</html>
+```
+
+- imageLayer 사용시 js오류 발생했음 ㅠ
+- tile -> imageLayer -> image 변경 후 정상 표출 확인
+- vworld는 타일로 가져와도 상관없는데 레이어는 통 이미지로 가져와야 정상적으로 중복없이 표출됨
+
+- 테이블로 레이어 발행하는게 문제라고 해서 sql view로 가져왔지만 동일 오류 발생
+- 테이블로 불러온 레이어도 통이미지로 가져오면 중복없이 정상적으로 가져옴
+- 레이어를 tile말고 Image / ImageWMS로 가져오도록 하자
+
+
+그렇다면 vworld는 타일로 가져와도 되나?
+양주 소스는 vworld는 타일로 가져오고 밑에 레이어만 image로 가져온다아아아아아
+
+
+
+- 
