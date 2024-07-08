@@ -57,7 +57,15 @@
 	- https://pjs21s.github.io/geoserver-setting/
 
 
-- GeoServer style
+- GeoServer style (라벨)
+	- [라벨 다 보이게 설정 옵션](https://bongra.tistory.com/425)
+```xml
+<!-- 라벨이 모든 줌레벨에서 보이도록 하는 옵션 -->
+<se:VendorOption name="spaceAround">-1</se:VendorOption>
+<se:VendorOption name="conflictResolution">false</se:VendorOption>
+<se:VendorOption name="goodnessOfFit">0</se:VendorOption>
+```
+
 ```xml
 <?xml version="1.0" encoding="EUC-KR"?>
 <StyledLayerDescriptor version="1.0.0"
