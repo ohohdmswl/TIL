@@ -237,7 +237,7 @@ ${ym}
 
 
 - 포인트 아이콘으로 png 넣기
-	- url 처럼 아예 gis 경로에 강제로 박아도 됨
+	- [url](https://gis.stackexchange.com/questions/122654/geoserver-sld-external-graphic-path) 처럼 아예 gis 경로에 강제로 박아도 됨
 	- 이미지 삽입 아이콘 버튼 클릭해서 이미지 선택하면 gis 경로에 알아서 추가 되더라 (sld 스타일 폴더에 같이 있더라)
 
 - 
