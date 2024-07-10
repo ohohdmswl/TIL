@@ -240,4 +240,4 @@ ${ym}
 	- [url](https://gis.stackexchange.com/questions/122654/geoserver-sld-external-graphic-path) 처럼 아예 gis 경로에 강제로 박아도 됨
 	- 이미지 삽입 아이콘 버튼 클릭해서 이미지 선택하면 gis 경로에 알아서 추가 되더라 (sld 스타일 폴더에 같이 있더라)
 
-- 
+- [sql view 로 레이어 만들고 파라미터 초기화](https://docs.geoserver.geo-solutions.it/edu/en/adding_data/add_sqllayers.html)
