@@ -244,6 +244,13 @@ ${ym}
 - geoserver 파라미터 (parameters)
 - [sql view 로 레이어 만들고 파라미터 초기화](https://docs.geoserver.geo-solutions.it/edu/en/adding_data/add_sqllayers.html)
 - https://wogus789789.tistory.com/324
+- https://docs.geoserver.org/2.22.x/en/user/data/database/sqlview.html
+- https://itstart-190126.tistory.com/entry/OpenLayers-GeoServer-SQL-View-parameteric-SQL-View
+- https://yoginsoft.tistory.com/5
+
+
+
+
 ```sql
 select * from 'table' where ym =%ym%
 ${ym}
