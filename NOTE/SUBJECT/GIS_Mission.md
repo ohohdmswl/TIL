@@ -258,4 +258,8 @@ ${ym}
 select * from 'table' where ym ='%ym%'
 #{ym}
 
+<!-- 이렇게 하면 숫자로 인식 -->
+WHERE sdd.data_crtr_pnttm >= %startDate%
+
+
 ```
