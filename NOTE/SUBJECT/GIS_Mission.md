@@ -247,7 +247,7 @@ ${ym}
 - https://docs.geoserver.org/2.22.x/en/user/data/database/sqlview.html
 - https://itstart-190126.tistory.com/entry/OpenLayers-GeoServer-SQL-View-parameteric-SQL-View
 - https://yoginsoft.tistory.com/5
-
+- https://wogus789789.tistory.com/321
 
 
 
