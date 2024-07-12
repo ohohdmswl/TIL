@@ -265,3 +265,9 @@ WHERE sdd.data_crtr_pnttm >= %startDate%
 
 
 ```
+
+
+
+- [div 위에 div 올리기](https://velog.io/@ljo094822/div%EC%9C%84%EC%97%90-div%EC%98%AC%EB%A6%AC%EA%B8%B0)
+	- 아래에 있을 div(부모): positon :relative;  
+	- 위로 위치할 div(자식): position: absolute;
