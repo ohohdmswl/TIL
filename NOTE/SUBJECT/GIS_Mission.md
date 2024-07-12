@@ -248,6 +248,8 @@ ${ym}
 - https://itstart-190126.tistory.com/entry/OpenLayers-GeoServer-SQL-View-parameteric-SQL-View
 - https://yoginsoft.tistory.com/5
 - https://wogus789789.tistory.com/321
+- https://itstart-190126.tistory.com/entry/GeoServer-SQL-View-parametric-SQL-View-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+- 
 
 
 
