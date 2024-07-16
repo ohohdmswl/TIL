@@ -271,3 +271,9 @@ WHERE sdd.data_crtr_pnttm >= %startDate%
 - [div 위에 div 올리기](https://velog.io/@ljo094822/div%EC%9C%84%EC%97%90-div%EC%98%AC%EB%A6%AC%EA%B8%B0)
 	- 아래에 있을 div(부모): positon :relative;  
 	- 위로 위치할 div(자식): position: absolute;
+
+
+- openlayer
+	- [vector](https://mollangpiu.tistory.com/254)
+		- 지도의 좌표를 저장하는 object
+		- 저장하거나 불러올 때 vector 사용
