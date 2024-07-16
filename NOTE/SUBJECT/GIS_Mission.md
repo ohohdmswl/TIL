@@ -277,3 +277,27 @@ WHERE sdd.data_crtr_pnttm >= %startDate%
 	- [vector](https://mollangpiu.tistory.com/254)
 		- 지도의 좌표를 저장하는 object
 		- 저장하거나 불러올 때 vector 사용
+		  
+	- [map 객체](https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html)
+		- 지도 랜더링 위해 -> 뷰, 레이어, 컨테이너 필요
+		![image](https://github.com/user-attachments/assets/137b1b22-c052-4dd3-80e9-769d9a94fb3a)
+		- target : 맵의 컨테이너, 지도 표출할 요소의 id, 
+		- view : 지도의 뷰
+		- layers : 레이어, 없으면 레이어 없는 맵 랜더링 됨, 레이어는 순서대로 랜더링, 가장 마지막에 랜더링 하는 레이어가 가장 위에서 보임
+		- [singleClick](https://openlayers.org/en/latest/apidoc/module-ol_MapBrowserEvent-MapBrowserEvent.html#event:singleclick) : 싱글클릭(이벤트)
+		- [moveend](https://openlayers.org/en/latest/apidoc/module-ol_MapEvent-MapEvent.html#event:moveend) : 지도가 이동된 후에 발생(이벤)
+		  
+	- [view 객체](https://openlayers.org/en/latest/apidoc/module-ol_View-View.html)
+		- view 객체는 지도의 간단한 2d 뷰 표출
+		- 지도의 중심, 해상도, 회전 변경하는데 사용하는 객체
+		- projection : 투영, 중심의 좌표계를 결정하고 그 단위는 해상도단위 (투영단위) 결정, 기본 값 EPSG:3857
+		- view의 상태
+			- center(getCenter, setCenter)
+			- resolution(getResolution, setResolution) : 뷰의 초기 해상
+			- rotation(getRotation, setRotation)
+			- 각 상태에는 getter, setter 존재
+		- state zoom은 실제 뷰에 저장 안됨 -> 모든 계산은 내부적으로 resolution 상태 사용
+		- but setZoom, getZoom 사용 가능
+		- getResolutionForZoom, setResolutionForZoom 사용해 시스템 전환 가능
+		- resoluitions : 지정된 경우 확대 수준 결정하는 해상도(배열), 정해놓으면 해당 해상도로 확대가 가능한가 봄
+		- 
