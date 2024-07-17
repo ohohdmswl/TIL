@@ -286,6 +286,7 @@ WHERE sdd.data_crtr_pnttm >= %startDate%
 		- layers : 레이어, 없으면 레이어 없는 맵 랜더링 됨, 레이어는 순서대로 랜더링, 가장 마지막에 랜더링 하는 레이어가 가장 위에서 보임
 		- [singleClick](https://openlayers.org/en/latest/apidoc/module-ol_MapBrowserEvent-MapBrowserEvent.html#event:singleclick) : 싱글클릭(이벤트)
 		- [moveend](https://openlayers.org/en/latest/apidoc/module-ol_MapEvent-MapEvent.html#event:moveend) : 지도가 이동된 후에 발생(이벤)
+		- set : set(key, value, silent), 값 세팅(Sets a value.)
 		  
 	- [view 객체](https://openlayers.org/en/latest/apidoc/module-ol_View-View.html)
 		- view 객체는 지도의 간단한 2d 뷰 표출
