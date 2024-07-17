@@ -336,3 +336,5 @@ console.table(map);
 
 - openlayer [data 설명(파람)](https://exhibitlove.tistory.com/133)
 
+[ol/layer/Image](https://openlayers.org/en/latest/apidoc/module-ol_layer_Image.html)
+[ol/source/ImageWMS](https://openlayers.org/en/latest/apidoc/module-ol_source_ImageWMS.html)~ImageWMS
