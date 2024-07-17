@@ -300,4 +300,30 @@ WHERE sdd.data_crtr_pnttm >= %startDate%
 		- but setZoom, getZoom 사용 가능
 		- getResolutionForZoom, setResolutionForZoom 사용해 시스템 전환 가능
 		- resoluitions : 지정된 경우 확대 수준 결정하는 해상도(배열), 정해놓으면 해당 해상도로 확대가 가능한가 봄
-		- 
+
+- map 전체 프로퍼티 값 알고 싶을 때
+```js
+	$(function(){
+	    var ulHtml = "";
+		ulHtml += "<ul>";
+		ulHtml += "<li>";
+		ulHtml += "<a href='./pubTransMenu1.do?ctCode="+"CT41370244"+"&sitemapCode="+$("#sitemapCode").val()+"'>기초정보</a>"
+		ulHtml += "</li>";
+		ulHtml += '<li>';
+		ulHtml += "<a href='#'  class='active'>노선분석</a>";
+		ulHtml += "</li>";
+		ulHtml += "<li>";
+		ulHtml += "<a href='./pubTransMenu2.do?ctCode="+"CT41370244"+"&sitemapCode="+$("#sitemapCode").val()+"'>수요분석</a>"
+		ulHtml += "</li>";
+		ulHtml += "</ul>";
+		$(".sub_gnb_title").append(ulHtml);
+		
+		console.table(map);
+	})
+
+// console.log, console.table 사용해서 객체 값 확인하기
+console.table(map); 
+```
+
+![image](https://github.com/user-attachments/assets/80c85ce4-8291-4b01-8206-4d3909e8da71)
+
