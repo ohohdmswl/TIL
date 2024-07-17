@@ -332,3 +332,7 @@ console.table(map);
 	- 참고소스에서는 map객체 생성할 때 mapView 객체를 같이 생성해서 신경쓰지 않아도 되지만,  지금 작성하는 코드는 map객체와 mapview 객체를 따로 생성하고 사용함
 	- 근데 map객체에서 view라는 속성을 지정할 때 mapView 객체를 사용하게 되니까 map 객체 선언하기 전에 mapView 객체를 먼저 생성해야함
 	- 그리고 map 객체에서 layers를 빈 배열상태로 두고 addLayer 메소드를 사용해서 레이어를 추가해야함
+
+
+- openlayer [data 설명(파람)](https://exhibitlove.tistory.com/133)
+
