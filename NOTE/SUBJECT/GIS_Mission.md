@@ -344,4 +344,23 @@ console.table(map);
 -  [ol](https://openlayers.org/en/v3.20.1/apidoc/ol.html) [.source](https://openlayers.org/en/v3.20.1/apidoc/ol.source.html) .ImageWMS 의 메소드
 - gis_main에 있는 getGetFeatureInofo => api에 존재하는 메소드
 - 전달된 좌표, 해상도, 투영 관한 getFeatureInfo URL 반환 -> url 구성 못할 경우 return : undefined 
-- 
+
+evt.coordinate
+	- 클릭이나 싱글 클릭과 같은 이벤트가 발생한 지도上的 점의 좌표를 의미
+	- 사용자가 지도를 클릭하면 OpenLayers는 이벤트를 캡처하고 그 위치의 좌표를 제공
+	- 이러한 좌표는 일반적으로 지도의 기본 투영 시스템(보통 EPSG:3857)으로 제공
+
+```js
+map.on('singleclick', function(evt){ 
+	var coordinate = evt.coordinate; 
+	console.log(coordinate); 
+});
+```
+
+- `evt.coordinate`는 사용자가 클릭한 위치의 [x, y] 좌표를 반환
+- 이 좌표는 마커를 배치하거나 클릭한 위치에 대한 정보를 가져오거나 `ol.proj.transform()`과 같은 함수를 사용하여 다른 투영 시스템으로 변환하는 등 다양한 용도로 사용 가능
+- Stack Overflow에서 OpenLayers에서 좌표를 얻는 방법에 대한 논의
+- - [Stack Overflow에서 OpenLayers에서 좌표를 얻는 방법에 대한 논의](https://stackoverflow.com/questions/51142610/get-coordinates-event-map-openlayers-4-6-5-5)
+- [Geographic Information Systems Stack Exchange에서 OpenLayers 이벤트에 대한 논의](https://gis.stackexchange.com/questions/134441/stop-openlayers-3-map-firing-click-event-after-dragging)
+
+
