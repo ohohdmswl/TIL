@@ -338,3 +338,10 @@ console.table(map);
 
 [ol/layer/Image](https://openlayers.org/en/latest/apidoc/module-ol_layer_Image.html)
 [ol/source/ImageWMS](https://openlayers.org/en/latest/apidoc/module-ol_source_ImageWMS.html)~ImageWMS
+
+
+-[getGetFeatureInfoUrl (좌표, 해상도, 투영, 매개변수)](https://openlayers.org/en/v3.20.1/apidoc/ol.source.ImageWMS.html#getGetFeatureInfoUrl)
+-  [ol](https://openlayers.org/en/v3.20.1/apidoc/ol.html) [.source](https://openlayers.org/en/v3.20.1/apidoc/ol.source.html) .ImageWMS 의 메소드
+- gis_main에 있는 getGetFeatureInofo => api에 존재하는 메소드
+- 전달된 좌표, 해상도, 투영 관한 getFeatureInfo URL 반환 -> url 구성 못할 경우 return : undefined 
+- 
