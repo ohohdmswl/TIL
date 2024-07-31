@@ -364,8 +364,10 @@ map.on('singleclick', function(evt){
 - [Geographic Information Systems Stack Exchange에서 OpenLayers 이벤트에 대한 논의](https://gis.stackexchange.com/questions/134441/stop-openlayers-3-map-firing-click-event-after-dragging)
 
 
-－ 클릭한 지점 정보가져오는 url 만들고 조회하면 cors 오류 생겨서 wms 타일 만들 때 아예 설정
+－ 클릭한 지점 정보가져오는 url 만들고 조회하면 cors 오류 생겨서 wms 타일 만들 때 아예 설정(이때 요청을 보낸 곳은 내 컴퓨터(local)이고 요청을 받은 곳은 웹 서버였기 때문에 생긴 크로스 도메인 오류였다.)
 	- 방법
 		1. 프록시 태우기
 		2. wms 생성시 crossOrigin 파람 추가 (crossOrigin : anonymous)
+			1. https://yd-dev.tistory.com/5
+			2. https://thinkoutbox.tistory.com/56
 
