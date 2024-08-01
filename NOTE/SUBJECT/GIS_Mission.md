@@ -370,4 +370,7 @@ map.on('singleclick', function(evt){
 		2. wms 생성시 crossOrigin 파람 추가 (crossOrigin : anonymous)
 			1. https://yd-dev.tistory.com/5
 			2. https://thinkoutbox.tistory.com/56
+			3. https://wogus789789.tistory.com/319?category=891011
+
+
 
