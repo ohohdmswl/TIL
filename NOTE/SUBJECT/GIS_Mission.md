@@ -423,4 +423,28 @@ map.on('singleclick', function(evt){
 	- `shift()` 함수는  
 		**배열의 시작 부분에서(shift, 앞 부분으로 빼내듯이 이동시켜) 첫 번째 요소를 제거하는 함수**입니다.  
 		제거된 요소를 반환합니다.
-- 
+
+
+-[mustache](https://saljjak.tistory.com/22)
+- mustache.render(template, data) 사용법
+```js
+const Mustache = require('mustache');
+
+const template = '<p>Name: {{name}}, Age: {{age}}</p>';
+const data = {
+  "name": "John",
+  "age": 30
+};
+
+const output = Mustache.render(template, data);
+console.log(output);
+위 코드를 실행하면 다음과 같이 출력됩니다.
+<p>Name: John, Age: 30</p>
+출처: https://saljjak.tistory.com/22 [TheCodeSavvy:티스토리]
+```
+
+config에서 template 가져옴 -> 첫번째 인자로 설정
+url로 알아낸 정보 배열(result) -> 이 데이터를 두번째 인자로 설정
+
+mustache.render(config에서 template 가져옴, url로 알아낸 정보 배열(result))
+이러면 템플릿에 {{}} 로 되어있는 부분에 레이어의 정보 값(properties)값이 바인딩됨
