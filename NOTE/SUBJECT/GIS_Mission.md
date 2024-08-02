@@ -401,3 +401,7 @@ map.on('singleclick', function(evt){
 - [백터 레이어 스타일 주기](https://openlayers.org/en/v3.20.1/apidoc/ol.layer.Vector.html#setStyle)
 	- 스타일 배열 만들어서 적용하기(https://itkjspo56.tistory.com/124)
 	- 백터 레이어에 스타일 자체를 추가하기(https://mollangpiu.tistory.com/268)
+
+클릭한 지역이 포인트냐 폴리곤이냐 구분 해서 선택할 수도 있지만.. 흠
+일단 읍면동만 저렇게 하려고 한 거니까 저정도로 충분할 것 같고
+포인트 마커를 하자
