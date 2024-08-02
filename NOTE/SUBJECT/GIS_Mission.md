@@ -391,3 +391,13 @@ map.on('singleclick', function(evt){
 
 
 그럼 일단 다 돌리고 / 피쳐 개수 확인하고 / 피쳐 내용 다 가져오고 / 그 안에서 아이디로 분리
+
+
+
+
+- https://mollangpiu.tistory.com/266
+  -> url로 지오제이슨 가져와서 벡터 레이어 생성 후 add 참고
+
+- [백터 레이어 스타일 주기](https://openlayers.org/en/v3.20.1/apidoc/ol.layer.Vector.html#setStyle)
+	- 스타일 배열 만들어서 적용하기(https://itkjspo56.tistory.com/124)
+	- 백터 레이어에 스타일 자체를 추가하기(https://mollangpiu.tistory.com/268)
