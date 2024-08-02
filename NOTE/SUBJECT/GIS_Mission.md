@@ -416,4 +416,11 @@ map.on('singleclick', function(evt){
 - 모델엔뷰
 	- https://www.leafcats.com/234
 	- https://velog.io/@900522z/return-type%EC%9D%B4ModelAndView-or-String%EC%9D%BC-%EA%B2%BD%EC%9A%B0%EC%B0%A8%EC%9D%B4%EC%A0%90
+
+
+- [재귀함수](https://velog.io/@fejigu/Javascript-%EC%9E%AC%EA%B7%80-%ED%95%A8%EC%88%98%EA%B0%9C%EB%85%90-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B8%B0%EC%B4%88%ED%83%88%EC%B6%9C-%EC%A1%B0%EA%B1%B4-%EC%9E%AC%EA%B7%80%EC%A0%81-%EC%82%AC%EA%B3%A0)
+- [js (.shift())](https://codingeverybody.kr/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-shift-%ED%95%A8%EC%88%98/)
+	- `shift()` 함수는  
+		**배열의 시작 부분에서(shift, 앞 부분으로 빼내듯이 이동시켜) 첫 번째 요소를 제거하는 함수**입니다.  
+		제거된 요소를 반환합니다.
 - 
