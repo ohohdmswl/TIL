@@ -27,6 +27,7 @@
 	- [설치 및 실행](https://velog.io/@dailylifecoding/geoserver-install-and-start)
 	- [GeoServer-기초](https://itstart-190126.tistory.com/entry/GeoServer-%EA%B8%B0%EC%B4%88)
 	- [Layer Publishing](https://velog.io/@dailylifecoding/GeoServer-Layer-Publishing)
+	- [지오서버 저장소생성](https://itstart-190126.tistory.com/entry/GeoServer-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 
 	- 앞서 생성한 `Store(저장소)` 에 있는 `Geometry 컬럼을 갖는 테이블` 이 존재한다면 위 그림처럼 목록에 표출
 	- [GeoServer를 활용하여 지도(레이어)를 발행 및 화면에 표출 해보자. (1)( feat. OpenLayers )](https://bongra.tistory.com/85)
