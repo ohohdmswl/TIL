@@ -6,4 +6,6 @@
 	- https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/converter/json/MappingJackson2HttpMessageConverter.html
 	- https://batory.tistory.com/469
 		-  자동 등록 된다는데 왜 안되는거냐
-		- 
+	- 쿼리 로그 찍기
+		- https://ninedc.tistory.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81spring%EC%97%90%EC%84%9C-SQL-%EC%BF%BC%EB%A6%AC-Log-%EC%B0%8D%EA%B8%B0
+	- 
