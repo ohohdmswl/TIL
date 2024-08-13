@@ -128,4 +128,6 @@
 </beans>
 ```
 
-
+- 피처 그리고 속성주기
+https://chocoboy.tistory.com/388
+https://sihus.tistory.com/24
