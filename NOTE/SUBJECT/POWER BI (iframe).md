@@ -5,3 +5,7 @@
 ![image](https://github.com/user-attachments/assets/0574b481-ed7e-4874-a77f-95954582f714)
 
 ![[Pasted image 20240813113554.png]]
+
+
+- [postgis st_ 함수] (https://postgis.net/docs/manual-2.4/postgis-ko_KR.html#ST_AsText)
+- 
